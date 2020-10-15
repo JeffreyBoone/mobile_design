@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/app_bar_search"
+            app:actionViewClass="android.widget.SearchView" />
+    </group>
+
+
+    <group android:id="@+id/group_ddeld">
+        <item
+            android:id="@+id/nav_hdome"
+            android:icon="@drawable/ic_baseline_expand_less_24"
+            android:title="Hoofdstuk" />
+        <item
+            android:id="@+id/nav_d1"
+            android:icon="@drawable/ic_baseline_check_box_outline_blank_24"
+            android:title="Stedenbouwkundig niveau" />
+        <item
+            android:id="@+id/nadv_2"
+            android:icon="@drawable/ic_baseline_check_box_24"
+            android:title="Inrichtingniveau" />
+        <item
+            android:id="@+id/nadv_3"
+            android:icon="@drawable/ic_baseline_check_box_outline_blank_24"
+            android:title="Uitvoeringniveau" />
+    </group>
+
+
+    <group android:id="@+id/group_delds">
+        <item
+            android:id="@+id/nav_gdallery"
+            android:icon="@drawable/ic_baseline_expand_more_24"
+            android:title="Niveau" />
+        <item
+            android:id="@+id/nav_slidedshow"
+            android:icon="@drawable/ic_baseline_expand_more_24"
+            android:title="Woonkern" />
+        <item
+            android:id="@+id/nav_gebdied"
+            android:icon="@drawable/ic_baseline_expand_more_24"
+            android:title="Gebied" />
+        <item
+            android:id="@+id/nav_ondedrwerp"
+            android:icon="@drawable/ic_baseline_expand_more_24"
+            android:title="Onderwerp" />
+    </group>
+
+    <group android:id="@+id/group_delete">
+        <item android:id="@+id/menu_archive"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Bijlage" />
+        <item android:id="@+id/menu_delete"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Bronverwijzing" />
+    </group>
+    <group android:id="@+id/group_deld">
+        <item android:id="@+id/menu_archidve"
+            android:title="Favorieten" />
+        <item android:id="@+id/menu_dd"
+            android:title="Nieuwe favorieten" />
+    </group>
+</menu>
